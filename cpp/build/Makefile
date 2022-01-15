@@ -174,6 +174,30 @@ deepCpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/build
 .PHONY : deepCpp/fast
 
+src/graphs.o: src/graphs.cpp.o
+.PHONY : src/graphs.o
+
+# target to build an object file
+src/graphs.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/graphs.cpp.o
+.PHONY : src/graphs.cpp.o
+
+src/graphs.i: src/graphs.cpp.i
+.PHONY : src/graphs.i
+
+# target to preprocess a source file
+src/graphs.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/graphs.cpp.i
+.PHONY : src/graphs.cpp.i
+
+src/graphs.s: src/graphs.cpp.s
+.PHONY : src/graphs.s
+
+# target to generate assembly for a file
+src/graphs.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/graphs.cpp.s
+.PHONY : src/graphs.cpp.s
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -211,6 +235,9 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... deepCpp"
+	@echo "... src/graphs.o"
+	@echo "... src/graphs.i"
+	@echo "... src/graphs.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

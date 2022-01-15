@@ -1,7 +1,6 @@
-CMakeFiles/test.dir/src/test.cpp.o: \
-  /Users/bernardocohen/repos/deepCpp/cpp/tests/src/test.cpp \
-  /usr/local/include/deepCpp /usr/local/include/deepCpp_bits/test.hpp \
-  /usr/local/include/deepCpp_bits/graphs.hpp \
+CMakeFiles/deepCpp.dir/src/graphs.cpp.o: \
+  /Users/bernardocohen/repos/deepCpp/cpp/src/graphs.cpp \
+  /Users/bernardocohen/repos/deepCpp/cpp/src/../include/deepCpp_bits/graphs.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iostream \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__config \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread.h \

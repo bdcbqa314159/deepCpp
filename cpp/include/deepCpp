@@ -2,5 +2,6 @@
 #define DEEPCPP_H
 
 #include "deepCpp_bits/test.hpp"
+#include "deepCpp_bits/graphs.hpp"
 
 #endif
