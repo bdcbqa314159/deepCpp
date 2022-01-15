@@ -4,11 +4,12 @@
 
 namespace ankitTrilogy
 {
-    void printDFS(std::vector<std::vector<int>> &v, int sv, std::vector<bool> &visited);
 
-    void DFS(std::vector<std::vector<int>> &v);
+    void printDFS(std::vector<std::vector<int>> &graph, int vertex, std::vector<bool> &visited);
 
-    void printBFS(std::vector<std::vector<int>> &v, int sv, std::vector<bool> &visited);
+    void DFS(std::vector<std::vector<int>> &graph);
 
-    void BFS(std::vector<std::vector<int>> &v);
+    void printBFS(std::vector<std::vector<int>> &graph, int vertex, std::vector<bool> &visited);
+
+    void BFS(std::vector<std::vector<int>> &graph);
 }

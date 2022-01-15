@@ -46,6 +46,22 @@ void graphTester()
     DFS(matrix);
     std::cout << "BFS" << std::endl;
     BFS(matrix);
+
+    std::vector<std::vector<int>> matrix1(6, std::vector<int>(6, 0));
+    matrix1[0][1] = 1;
+    matrix1[1][0] = 1;
+    matrix1[1][2] = 1;
+    matrix1[2][1] = 1;
+    matrix1[1][3] = 1;
+    matrix1[3][1] = 1;
+    matrix1[2][4] = 1;
+    matrix1[4][2] = 1;
+    matrix1[4][5] = 1;
+    matrix1[5][4] = 1;
+    std::cout << "DFS" << std::endl;
+    DFS(matrix1);
+    std::cout << "BFS" << std::endl;
+    BFS(matrix1);
 }
 
 int main()
