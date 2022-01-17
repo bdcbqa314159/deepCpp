@@ -1,27 +1,26 @@
 #ifndef KRUSKAL_H
 #define KRUSKAL_H
 
-#include <algorithm>
-#include <iostream>
 #include <vector>
-using namespace std;
+typedef std::pair<int, int> edge;
 
-#define edge pair<int, int>
-
-class Graph
+namespace ankitTrilogy
 {
-private:
-    vector<pair<int, edge>> G; // graph
-    vector<pair<int, edge>> T; // mst
-    vector<int> parent;
-    int V; // number of vertices/nodes in graph
-public:
-    Graph(int V);
-    void AddWeightedEdge(int u, int v, int w);
-    int find_set(int i);
-    void union_set(int u, int v);
-    void kruskal();
-    void print();
-};
+    class Graph
+    {
+        std::vector<std::pair<int, edge>> G;
+        std::vector<std::pair<int, edge>> T;
+        std::vector<int> parent;
+        int V;
+
+    public:
+        Graph(int V);
+        void addWeightedEdge(int u, int v, int w);
+        int find_set(int i);
+        void union_set(int u, int v);
+        void kruskal();
+        void print();
+    };
+}
 
 #endif
