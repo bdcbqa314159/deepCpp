@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/deepCpp.dir/src/graphs.cpp.o.d"
   "CMakeFiles/deepCpp.dir/src/kruskal.cpp.o"
   "CMakeFiles/deepCpp.dir/src/kruskal.cpp.o.d"
+  "CMakeFiles/deepCpp.dir/src/prim.cpp.o"
+  "CMakeFiles/deepCpp.dir/src/prim.cpp.o.d"
   "CMakeFiles/deepCpp.dir/src/test.cpp.o"
   "CMakeFiles/deepCpp.dir/src/test.cpp.o.d"
   "libdeepCpp.dylib"

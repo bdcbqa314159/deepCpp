@@ -461,6 +461,9 @@ CMakeFiles/deepCpp.dir/src/kruskal.cpp.o
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset
 
+CMakeFiles/deepCpp.dir/src/prim.cpp.o
+ /Users/bernardocohen/repos/deepCpp/cpp/src/prim.cpp
+
 CMakeFiles/deepCpp.dir/src/test.cpp.o
  /Users/bernardocohen/repos/deepCpp/cpp/src/test.cpp
  /Users/bernardocohen/repos/deepCpp/cpp/include/deepCpp_bits/test.hpp

@@ -4,5 +4,6 @@
 #include "deepCpp_bits/test.hpp"
 #include "deepCpp_bits/graphs.hpp"
 #include "deepCpp_bits/kruskal.hpp"
+#include "deepCpp_bits/prim.hpp"
 
 #endif

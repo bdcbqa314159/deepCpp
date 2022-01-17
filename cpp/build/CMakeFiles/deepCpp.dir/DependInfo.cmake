@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bernardocohen/repos/deepCpp/cpp/src/graphs.cpp" "CMakeFiles/deepCpp.dir/src/graphs.cpp.o" "gcc" "CMakeFiles/deepCpp.dir/src/graphs.cpp.o.d"
   "/Users/bernardocohen/repos/deepCpp/cpp/src/kruskal.cpp" "CMakeFiles/deepCpp.dir/src/kruskal.cpp.o" "gcc" "CMakeFiles/deepCpp.dir/src/kruskal.cpp.o.d"
+  "/Users/bernardocohen/repos/deepCpp/cpp/src/prim.cpp" "CMakeFiles/deepCpp.dir/src/prim.cpp.o" "gcc" "CMakeFiles/deepCpp.dir/src/prim.cpp.o.d"
   "/Users/bernardocohen/repos/deepCpp/cpp/src/test.cpp" "CMakeFiles/deepCpp.dir/src/test.cpp.o" "gcc" "CMakeFiles/deepCpp.dir/src/test.cpp.o.d"
   )
 

@@ -222,6 +222,30 @@ src/kruskal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/kruskal.cpp.s
 .PHONY : src/kruskal.cpp.s
 
+src/prim.o: src/prim.cpp.o
+.PHONY : src/prim.o
+
+# target to build an object file
+src/prim.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/prim.cpp.o
+.PHONY : src/prim.cpp.o
+
+src/prim.i: src/prim.cpp.i
+.PHONY : src/prim.i
+
+# target to preprocess a source file
+src/prim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/prim.cpp.i
+.PHONY : src/prim.cpp.i
+
+src/prim.s: src/prim.cpp.s
+.PHONY : src/prim.s
+
+# target to generate assembly for a file
+src/prim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/prim.cpp.s
+.PHONY : src/prim.cpp.s
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -265,6 +289,9 @@ help:
 	@echo "... src/kruskal.o"
 	@echo "... src/kruskal.i"
 	@echo "... src/kruskal.s"
+	@echo "... src/prim.o"
+	@echo "... src/prim.i"
+	@echo "... src/prim.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

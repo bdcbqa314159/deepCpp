@@ -229,4 +229,5 @@ CMakeFiles/test1.dir/src/test1.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/queue \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/deque \
-  /usr/local/include/deepCpp_bits/kruskal.hpp
+  /usr/local/include/deepCpp_bits/kruskal.hpp \
+  /usr/local/include/deepCpp_bits/prim.hpp

@@ -4,7 +4,7 @@
 using namespace ankitTrilogy;
 void KruskalTester()
 {
-    Graph g(6);
+    ankitTrilogy::Graph g(6);
     // g.AddWeightedEdge(0, 1, 4);
     // g.AddWeightedEdge(0, 2, 4);
     // g.AddWeightedEdge(1, 2, 2);
@@ -32,8 +32,27 @@ void KruskalTester()
     g.print();
 }
 
+void PrimsTester()
+{
+    // create the graph given in above fugure
+    int V = 5;
+    ankitTrilogy::Prim::Graph g(V);
+
+    //  making above shown graph
+    g.addEdge(0, 1, 4);
+    g.addEdge(0, 2, 8);
+    g.addEdge(1, 2, 2);
+    g.addEdge(1, 3, 6);
+    g.addEdge(2, 3, 3);
+    g.addEdge(2, 4, 9);
+    g.addEdge(3, 4, 5);
+    g.primMST();
+    g.print();
+}
+
 int main()
 {
     std::cout << "Testing tests.cpp" << std::endl;
     KruskalTester();
+    PrimsTester();
 }
