@@ -129,6 +129,19 @@ test/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
 .PHONY : test/fast
 
+#=============================================================================
+# Target rules for targets named test1
+
+# Build rule for target.
+test1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test1
+.PHONY : test1
+
+# fast build rule for target.
+test1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/build
+.PHONY : test1/fast
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -153,6 +166,30 @@ src/test.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/src/test.cpp.s
 .PHONY : src/test.cpp.s
 
+src/test1.o: src/test1.cpp.o
+.PHONY : src/test1.o
+
+# target to build an object file
+src/test1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/test1.cpp.o
+.PHONY : src/test1.cpp.o
+
+src/test1.i: src/test1.cpp.i
+.PHONY : src/test1.i
+
+# target to preprocess a source file
+src/test1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/test1.cpp.i
+.PHONY : src/test1.cpp.i
+
+src/test1.s: src/test1.cpp.s
+.PHONY : src/test1.s
+
+# target to generate assembly for a file
+src/test1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test1.dir/build.make CMakeFiles/test1.dir/src/test1.cpp.s
+.PHONY : src/test1.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +199,13 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... test1"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"
+	@echo "... src/test1.o"
+	@echo "... src/test1.i"
+	@echo "... src/test1.s"
 .PHONY : help
 
 

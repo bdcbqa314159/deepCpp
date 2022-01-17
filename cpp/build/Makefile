@@ -198,6 +198,30 @@ src/graphs.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/graphs.cpp.s
 .PHONY : src/graphs.cpp.s
 
+src/kruskal.o: src/kruskal.cpp.o
+.PHONY : src/kruskal.o
+
+# target to build an object file
+src/kruskal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/kruskal.cpp.o
+.PHONY : src/kruskal.cpp.o
+
+src/kruskal.i: src/kruskal.cpp.i
+.PHONY : src/kruskal.i
+
+# target to preprocess a source file
+src/kruskal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/kruskal.cpp.i
+.PHONY : src/kruskal.cpp.i
+
+src/kruskal.s: src/kruskal.cpp.s
+.PHONY : src/kruskal.s
+
+# target to generate assembly for a file
+src/kruskal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/deepCpp.dir/build.make CMakeFiles/deepCpp.dir/src/kruskal.cpp.s
+.PHONY : src/kruskal.cpp.s
+
 src/test.o: src/test.cpp.o
 .PHONY : src/test.o
 
@@ -238,6 +262,9 @@ help:
 	@echo "... src/graphs.o"
 	@echo "... src/graphs.i"
 	@echo "... src/graphs.s"
+	@echo "... src/kruskal.o"
+	@echo "... src/kruskal.i"
+	@echo "... src/kruskal.s"
 	@echo "... src/test.o"
 	@echo "... src/test.i"
 	@echo "... src/test.s"

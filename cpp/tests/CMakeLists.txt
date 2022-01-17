@@ -17,3 +17,7 @@ find_library(DEEPCPP_LIB deepCpp HINTS /usr/local/lib/)
 add_executable(test src/test.cpp)
 
 target_link_libraries(test PUBLIC ${DEEPCPP_LIB})
+
+add_executable(test1 src/test1.cpp)
+
+target_link_libraries(test1 PUBLIC ${DEEPCPP_LIB})
